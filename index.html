@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>PSG college of technology</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+	<!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,18 +15,17 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Oxygen:wght@300;400;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
 	<header>
-
-
 		<nav class="navbar navbar-expand-lg bg-body-tertiary" style="z-index: 9999;">
-           <div class="container-fluid">
-             
-
-            <span id="marquee">
+           <div class="container-fluid" id="navbar">
+              <span id="marquee">
            	   <marquee>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</marquee>
             </span>
 
-            <img src="images/logo.png">
+            <img id ="logo" src="images/logo.png">
+            <img class="visible-lg visible-md" id="g20" src="images/g20.png">
 
                <div id="brand"><a href="#">PSG COLLEGE OF TECHNOLOGY<br><span id="iso">ISO:XXXXXXXXXXXXX</span></a></div>
 
@@ -100,10 +102,10 @@
 
 
 	</header>
+</head>
 
-
-
-				<div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<body>
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
 			    <div class="carousel-inner">
 			    <div class="carousel-item active" id="first">
 			      <img src="images/1.jpg" class="d-block w-100" alt="...">
@@ -115,14 +117,6 @@
 			      <img src="images/3.jpg" class="d-block w-100" alt="..." >
 			    </div>
 			  </div>
-			  <div id="black">
-			  	<h2>WELCOME TO PSG COLLEGE OF TECHNOLOGY....</h2>
-			  	<p id="about">djflkd djfkdjsl kjvkjdlfj cjkjdj jkjfjf jkjjlkjlkf jdkjsjl jdjjc fjljfljc jsljlvj  lkfjlkjc j dkjkskkjdjf kjfkdjlkjf
-			  		dfjdfjdjflkd djfkdjsl kjvkjdlfj cjkjdj jkjfjf jkjjlkjlkf jdkjsjl jdjjc fjljfljc jsljlvj  lkfjlkjc j dkjkskkjdjf kjfkdjlkjf
-			  		dfjdfjdjfkjf kjflkdjf fjdfjjf sdkjflkdjf cjfj jfdjf c djkdfdfdfdjflkd djfkdjsl kjvkjdlfj cjkjdj jkjfjf jkjjlkjlkf jdkjsjl jdjjc fjljfljc jsljlvj  lkfjlkjc j dkjkskkjdjf kjfkdjlkjfdjflkd djfkdjsl kjvkjdlfj cjkjdj jkjfjf jkjjlkjlkf jdkjsjl jdjjc fjljfljc jsljlvj  lkfjlkjc j dkjkskkjdjf kjfkdjlkjf	dfjdfjdjfkjf kjflkdjf fjdfjjf sdkjflkdjf cjfj jfdjf c djkdfdfdfdfjdfjdjfkjf kjflkdjf fjdfjjf sdkjflkdjf cjfj jfdjf c djkdfdfdfdjflkd djfkdjsl kjvkjdlfj cjkjdj jkjfjf jkjjlkjlkf jdkjsjl jdjjc fjljfljc jsljlvj  lkfjlkjc j dkjkskkjdjf kjfkdjlkjf	dfjdfjdjfkjf kjflkdjf fjdfjjf sdkjflkdjf cjfj jfdjf c djkdfdfdfdjfkjf kjflkdjf fjdfjjf sdkjflkdjf cjfj jfdjf c djkdfdfdf djflkd djfkdjsl kjvkjdlfj cjkjdj jkjfjf jkjjlkjlkf jdkjsjl jdjjc fjljfljc jsljlvj  lkfjlkjc j dkjkskkjdjf kjfkdjlkjf
-			  		dfjdfjdjflkd djfkdjsl kjvkjdlfj cjkjdj jkjfjf jkjjlkjlkf jdkjsjl jdjjc fjljfljc jsljlvj  lkfjlkjc j dkjkskkjdjf kjfkdjlkjf
-			  		dfjdfjdjfkjf kjflkdjf fjdfjjf sdkjflkdjf cjfj jfdjf c djkdfdfdfdjflkd djfkdjsl kjvkjdlfj cjkjdj jkjfjf jkjjlkjlkf jdkjsjl jdjjc fjljfljc jsljlvj  lkfjlkjc j dkjkskkjdjf kjfkdjlkjfdjflkd djfkdjsl kjvkjdlfj cjkjdj jkjfjf jkjjlkjlkf jdkjsjl jdjjc fjljfljc jsljlvj  lkfjlkjc j dkjkskkjdjf kjfkdjlkjf	dfjdfjdjfkjf kjflkdjf fjdfjjf sdkjflkdjf cjfj jfdjf c djkdfdfdfdfjdfjdjfkjf kjflkdjf fjdfjjf sdkjflkdjf cjfj jfdjf c djkdfdfdfdjflkd djfkdjsl kjvkjdlfj cjkjdj jkjfjf jkjjlkjlkf jdkjsjl jdjjc fjljfljc jsljlvj  lkfjlkjc j dkjkskkjdjf kjfkdjlkjf	dfjdfjdjfkjf kjflkdjf fjdfjjf sdkjflkdjf cjfj jfdjf c djkdfdfdfdjfkjf kjflkdjf fjdfjjf sdkjflkdjf cjfj jfdjf c djkdfdfdf
-			  </div>
 			  
 			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
 			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -132,15 +126,149 @@
 			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 			    <span class="visually-hidden">Next</span>
 			  </button>
-			</div>
+		</div>
 
 
 
-</head>
-   
-<body>
+<div class="container-fluid" id="about"><h2>Welcome to PSG college of technology</h2>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<a href="#">Read more</a>
+</div>
+
+
+
+   <div class="center">
+    <div style="border:50px solid #E7FAFA;"><img src="images/1.jpg" style="height: 400px;"><center><button type="button" class="btn btn-info" style="margin-top:10px;">Info</button></center></div>
+    <div style="border:50px solid #E7FAFA;"><img src="images/2.jpg" style="height: 400px;"><center><button type="button" class="btn btn-info" style="margin-top:10px;">Info</button></center></div>
+    <div style="border:50px solid #E7FAFA;"><img src="images/3.jpg" style="height: 400px;"><center><button type="button" class="btn btn-info" style="margin-top:10px;">Info</button></center></div>
+    <div style="border:50px solid #E7FAFA;"><img src="images/2.jpg" style="height: 400px;"><center><button type="button" class="btn btn-info" style="margin-top:10px;">Info</button></center></div>
+    <div style="border:50px solid #E7FAFA;"><img src="images/1.jpg" style="height: 400px;"><center><button type="button" class="btn btn-info" style="margin-top:10px;">Info</button></center></div>
+    <div style="border:50px solid #E7FAFA;"><img src="images/2.jpg" style="height: 400px;"><center><button type="button" class="btn btn-info" style="margin-top:10px;">Info</button></center></div>
+    <div style="border:50px solid #E7FAFA;"><img src="images/3.jpg" style="height: 400px;"><center><button type="button" class="btn btn-info" style="margin-top:10px;">Info</button></center></div>
+    <div style="border:50px solid #E7FAFA;"><img src="images/2.jpg" style="height: 400px;"><center><button type="button" class="btn btn-info" style="margin-top:10px;">Info</button></center></div>
+    <div style="border:50px solid #E7FAFA;"><img src="images/1.jpg" style="height: 400px;"><center><button type="button" class="btn btn-info" style="margin-top:10px;">Info</button></center></div>
+  </div>
+
+
+		<h2 id ="highlights">
+		CAMPUS HIGHLIGHTS</h2>
+
+  	<div id="home-tiles3" class="row">
+  	 	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+  	 		<a href = "#"><div id="library"><span>library</div></a>
+  	 	</div>
+
+  	 	<div class ="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+  	 		<a href="#"><div id="placements"><span>placements</span></div></a>
+  	 	</div>
+
+  	 	<div class ="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+  	 		<a href="#"><div id="hostels"><span>hostels</span></div></a><div id="map-tile"> 
+  	 	</div>
+  	 </div>
+
+  	</div>
+
+  <footer class="panel-footer">
+  	<div class="container">
+  		<div class="row">
+  			<section id ="hours" class="col-sm-4">
+  				<span>Contact : </span><br>
+  				<a id="link" href="tel:0422-2572177">0422-2572177</a><br>
+  				<a id="link" href="mailto:academic@psgtech.ac.in">Send Email</a>
+  				<hr class = "visible-xs">
+  			</section>
+  			<section id="address" class = "col-sm-4">
+  				<span>Address :</span><br>
+  				PSG College of Technology<br>
+  				Post Box No:1611,<br>
+  				Peelamedu,<br>
+  				Coimbatore.
+  				<br>
+  				<br>
+  				<a id="link" href="https://maps.google.com" target="_blank">Show in map</a>
+  				<hr class="visible-xs">
+  			</section>
+  			<section id="testimonials" class="col-sm-4">
+  				<span>My PSG :</span><br>
+  				<a id="link" href="#">Library</a><br>
+  				<a id="link" href="#">PSG Mail</a><br>
+  				<a id="link" href="#">Community Radio</a><br>
+  				<a id="link" href="#">UGC/AICTE Mandatory<br>Commities</a>
+  			</section>
+  		</div>
+  		<div class ="text-center">&copy; Copyright PSG College of Technology - 2023</div>
+  </footer>
+
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
+  <script type="text/javascript" src="slick/jquery.js"></script>
+  <script type="text/javascript" src="slick/jquery-min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $('.center').slick({
+      centerMode: true,
+      centerPadding: '60px',
+      slidesToShow: 4,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            autoplay:true,
+            autoplaySpeed:3000,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            autoplay:true,
+            autoplaySpeed:3000,
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1,
+            mobileFirst:true,
+            dots:true
+          }
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            autoplay:true,
+            autoplaySpeed:3000,
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 2,
+            mobileFirst:true,
+            dots:true
+          }
+        },
+        {
+          breakpoint:1600,
+          settings: {
+            autoplay:true,
+            autoplaySpeed:3000,
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 4,
+            mobileFirst:true,
+            dots:true
+          }
+        }
+      ]
+    });
+    });
+  </script>
 </body>
 
 </html>
