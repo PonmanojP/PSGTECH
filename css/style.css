@@ -1,6 +1,7 @@
 body{
 	margin:0;
 	background-color: #E7FAFA;
+	overflow-x:clip;
 }
 
 .navbar{
@@ -89,6 +90,15 @@ body{
 	height:600px;
 }
 
+#carouselExampleAutoplaying{
+	height:600px;
+}
+
+.carousel-item{
+	width:100%;
+	height: auto;
+}
+
 
 
 #about{
@@ -97,6 +107,7 @@ body{
 	height:350px;
 	position: relative;
 	margin-top:0;
+	opacity: 0.8;
 }
 
 #about p{
@@ -136,7 +147,13 @@ body{
 	margin-bottom: 20px;
 }
 
-.btn{
+#button{
+	position:absolute;
+	right:30px;
+	width:140px;
+}
+
+#btn{
 	position:absolute;
 }
 
@@ -244,6 +261,7 @@ body{
 	.nav-item{
 		margin-right: 20px;
 	}
+
 }
 
 @media(max-width: 992px){
@@ -251,13 +269,24 @@ body{
     	height: 180px;
     }
 
+
+	#carouselExampleAutoplaying{
+	    height:500px;
+	    overflow-y:clip;
+    }
+
+    #about{
+    	overflow-y: clip;
+    }
+
     #home-tiles1{
     	
     }
 
-    #logo{
-        margin-top: 40px;
+    .navbar-nav{
+    	margin-top:0px;
     }
+
 
     #g20{
     	visibility: hidden;
@@ -271,39 +300,29 @@ body{
     	margin-top: 50px;
     }
 
-	h2{
+/*	h2{
 		color:white;
 		position:absolute;
 		margin-left: 30px;
 		margin-top:25px;
 		font-family: 'Lora', serif;
+	}*/
+
+	#hostels{
+		margin-left:50%;
+		margin-right:50%;
 	}
 
 }
 
 
 @media(max-width: 768px){
-
-    #logo{
-        margin-top: 40px;
-        height: 40%;
-        width: 15%;
+    #carouselExampleAutoplaying{
+	    height:400px;
     }
 
-    .carousel-inner{
-    	height:400px;
-    }
-
-    #inner{
-    	height:450px;
-    }
-
-    .carousel-item{
-    	height: 400px;
-    }
-
-    #black{
-
+    #about p{
+    	font-size: 16px;
     }
 
     #brand{
@@ -315,10 +334,50 @@ body{
     	visibility: hidden;
     }
 
+    .bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color:gray !important;
+}
+
+    #hostels{
+        margin:0;
+	}
+
 }
 
 @media(max-width: 1030px){
 	#about{
 		height:450px;
 	}
+
 }
+
+@media(min-width: 992px){
+	.mt-3{
+		visibility: hidden;
+		position:relative;
+		margin-left:50px;
+	}
+
+	#logo{
+	    margin-bottom: 35px;
+}
+}
+
+@media(max-width: 600px){
+	#carouselExampleAutoplaying{
+	    height:320px;
+
+    }
+}
+
+@media(max-width:544px){
+	#about p{
+		font-size: 15px;
+	}
+
+	#about{
+		height:420px;
+	}
+}
+
