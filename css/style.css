@@ -286,8 +286,18 @@ body{
 
 @media(max-width: 992px){
     .navbar{
-    	height: 180px;
+    	height: 170px;
     }
+
+    #logo img{
+    	height:70px;
+    	width: 90%;
+    }
+
+    #logo{
+    	margin-top: 10px;
+    }
+
 
     .navbar-nav{
     	text-align: center;
@@ -361,10 +371,7 @@ body{
     	visibility: hidden;
     }
 
-    .bg-body-tertiary {
-    --bs-bg-opacity: 1;
-    background-color:gray !important;
-}
+
 
     #hostels{
         margin:0;
