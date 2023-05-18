@@ -234,13 +234,47 @@ body{
 	margin-left: 10%;
 	margin-right: 10%;
 	border: 2px solid black;
-	box-shadow:2px 2px 5px 5px;
     
 }
 
 .list-group a{
     text-align: center;
     
+}
+
+#accordionFlushExample{
+	width:90%;
+	margin-top:100px;
+	margin-bottom:100px;
+	margin-left:5%;
+	border:2px solid black;
+}
+
+#accordionFlushExample2{
+    width:90%;
+	margin-top:100px;
+	margin-bottom:100px;
+	margin-left:5%;
+	border:2px solid black;
+}
+
+#accordionFlushExample a{
+	text-decoration: none;
+	color:black;
+	font-size: 1.1em;
+	width: 100%;
+
+}
+
+#accordionFlushExample a:hover, #accordionFlushExample2 a:hover{
+    font-weight: bolder;
+
+}
+
+#accordionFlushExample2 a{
+	text-decoration: none;
+	color:black;
+
 }
 
 .panel-footer{
@@ -272,6 +306,10 @@ body{
 
 #testimonials p:nth-child(2){
   margin-top:25px;
+}
+
+.panel-footer section hr{
+    visibility: hidden;
 }
 
 #link{
@@ -372,6 +410,20 @@ body{
         margin:0;
 	}
 
+  .panel-footer section{
+    margin-bottom:30px;
+    text-align:center;
+  }
+
+  .panel-footer section:nth-child(3){
+    margin-bottom:0;
+  }
+
+  .panel-footer section hr{
+    width: 100%;
+    visibility: visible;
+  }
+
 }
 
 
@@ -395,8 +447,8 @@ body{
     }*/
 
     #logo img{
-    	height:70px;
-    	width: 90%;
+    	height:90px;
+    	width: 80%;
     }
 
     #logo{
