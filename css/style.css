@@ -76,7 +76,7 @@ body{
 }
 
 .nav-item{
-	margin-right: 50px;
+	margin-right: 20px;
 }
 
 #navbar{
@@ -319,7 +319,7 @@ body{
 
 @media(max-width: 1220px){
 	.nav-item{
-		margin-right: 20px;
+		margin-right: 10px;
 	}
 
 }
