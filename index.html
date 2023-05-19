@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!--------------------------------------------------------Importing fonts and Bootstrap Plugins-------------------------------------------->
+
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>PSG college of technology</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 	<link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
-	<!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,14 +18,21 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Oxygen:wght@300;400;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 
+
+
+
+<!-----------------------------------------------------code for navbar and marquee--------------------------------------------------------->
 	<header>
 		<nav class="navbar navbar-expand-lg bg-body-tertiary" style="z-index: 9999;">
            <div class="container-fluid" id="navbar">
               <span id="marquee">
-           	   <marquee>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</marquee>
+           	   <marquee name="news" id="news">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</marquee>
             </span>
 
-            <!-- <img id ="logo" src="images/logo.png"> -->
+
+
+
+<!---------------------------------------------------------- logo starts ------------------------------------------------------------------>
             <nav class="navbar bg-body-transparent" id="logo">
 			  <div class="container">
 			    <a class="navbar-brand" href="#">
@@ -33,10 +41,13 @@
 			  </div>
 			</nav>
             <img class="visible-lg visible-md" id="g20" src="images/g20.png">
+<!---------------------------------------------------------- logo ends -------------------------------------------------------------------->
 
-               <!-- <div id="brand"><a href="#">PSG COLLEGE OF TECHNOLOGY<br><span id="iso">ISO:XXXXXXXXXXXXX</span></a></div> -->
 
 
+
+
+<!-----------------------------------------------------------Navigation bar starts--------------------------------------------------------->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                          <span class="navbar-toggler-icon"></span>
                     </button>
@@ -112,39 +123,33 @@
 					            <li><a class="dropdown-item" href="#">Downloads</a></li>
 					            <li><a class="dropdown-item" href="#">Glance at PSG</a></li>
 					          </ul>
-
-
-
 			        </li>
 			      </ul>
 			    </div>
-                 <!-- <div class="dropdown mt-3">
-			      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-			        Dropdown button
-			      </button>
-			      <ul class="dropdown-menu">
-			        <li><a class="dropdown-item" href="#">home</a></li>
-			        <li><a class="dropdown-item" href="#">Another action</a></li>
-			        <li><a class="dropdown-item" href="#">Something else here</a></li>
-			      </ul>
-			    </div> -->
 			</nav>
-
-
 	</header>
 </head>
 
+<!---------------------------------------------------- navigation bar ends ---------------------------------------------------------------->
+
+
+
+
+
+
+
+<!---------------------------------------------------------Code for Carousel -------------------------------------------------------------->
 <body>
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
 			    <div class="carousel-inner">
-			    <div class="carousel-item active" id="first">
-			      <img src="images/1.jpg" class="d-block w-100" alt="...">
+			    <div class="carousel-item active" id="first" name="first">
+			      <img src="images/carousel2.jpeg" class="d-block w-100" alt="..." name="image1">
 			    </div>
-			    <div class="carousel-item" id="second">
-			      <img src="images/2.jpg" class="d-block w-100" alt="...">
+			    <div class="carousel-item" id="second" name="first">
+			      <img src="images/carousel1.jpg" class="d-block w-100" alt="..." name="image2">
 			    </div>
-			    <div class="carousel-item" id="third">
-			      <img src="images/3.jpg" class="d-block w-100" alt="..." >
+			    <div class="carousel-item" id="third" name="first">
+			      <img src="images/carousel3.png" class="d-block w-100" alt="..." name="image3" >
 			    </div>
 			  </div>
 			  
@@ -157,63 +162,168 @@
 			    <span class="visually-hidden">Next</span>
 			  </button>
 		</div>
+<!---------------------------------------------------------Code for Carousel ends --------------------------------------------------------->
 
 
 
+
+
+
+
+<!---------------------------------------------------------College Description------------------------------------------------------------->
 <div class="container-fluid" id="about"><h2>Welcome to PSG college of technology</h2>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+<p name="about" id="description">
+PSG College of Technology, an ISO 9001:2015 certified institution  is one of the foremost institutions founded by the PSG & Sons' Charities Trust(1926).  The College was established in the year 1951 and the Founders wisely decided to locate it in the same campus as the PSG Indistrial Institute for effective industry-institute interaction.<br><br>Provide world-class Engineering Education, Foster Research and Development. Evolve innovative applications of Technology. Encourage Entrepreneurship.  Ultimately mould young men and women capable of assuming leadership of the society for the betterment of the Country.</p>
 <a href="#"><button type="button" class="btn btn-outline-light" id="button">Read more</button></a>
 </div>
+<!---------------------------------------------------------College description ends-------------------------------------------------------->
 
+
+
+
+
+<!----------------------------------------------------------- Latest Updates -------------------------------------------------------------->
 		<div><h2 id ="updates">
 		LATEST EVENTS</h2></div>
 
    <div class="center">
-    <div><img src="images/1.jpg"><center><button type="button" class="btn btn-info" id="btn" style="margin-top:10px;">Info</button></center></div>
-    <div><img src="images/2.jpg"><center><button type="button" class="btn btn-info" id="btn" style="margin-top:10px;">Info</button></center></div>
-    <div><img src="images/3.jpg"><center><button type="button" class="btn btn-info" id="btn" style="margin-top:10px;">Info</button></center></div>
-    <div><img src="images/2.jpg"><center><button type="button" class="btn btn-info" id="btn" style="margin-top:10px;">Info</button></center></div>
-    <div><img src="images/1.jpg"><center><button type="button" class="btn btn-info" id="btn" style="margin-top:10px;">Info</button></center></div>
-    <div><img src="images/2.jpg"><center><button type="button" class="btn btn-info" id="btn" style="margin-top:10px;">Info</button></center></div>
-    <div><img src="images/3.jpg"><center><button type="button" class="btn btn-info" id="btn" style="margin-top:10px;">Info</button></center></div>
-    <div><img src="images/2.jpg"><center><button type="button" class="btn btn-info" id="btn" style="margin-top:10px;">Info</button></center></div>
-    <div><img src="images/1.jpg"><center><button type="button" class="btn btn-info" id="btn" style="margin-top:10px;">Info</button></center></div>
+    <div>
+
+    	<div class="card">
+		  <img src="images/2.jpg" class="card-img-top" alt="..." name="event-1-image" id="event-1-image">
+		  <div class="card-body">
+		    <h5 class="card-title" name="event-1-title" id="event-1-title">Title 1</h5>
+		    <p class="card-text" name="event-1-text" id="event-1-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <center><a href="#" class="btn btn-outline-primary " id="event-1-link" name="event-1-link">Go somewhere</a></center>
+		  </div>
+     </div>
+
+
+    </div>
+
+
+    <div>
+    	 <div class="card">
+		  <img src="images/1.jpg" class="card-img-top" alt="..." name="event-2-image" id="event-2-image">
+		  <div class="card-body">
+		    <h5 class="card-title" name="event-2-title" id="event-2-title">Title 2</h5>
+		    <p class="card-text" name="event-2-text" id="event-2-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <center><a href="#" class="btn btn-outline-primary " id="event-2-link" name="event-2-link">Go somewhere</a></center>
+		  </div>
+     </div>
+    </div>
+
+
+    <div>
+    	<div class="card">
+		  <img src="images/3.jpg" class="card-img-top" alt="..." name="event-3-image">
+		  <div class="card-body">
+		    <h5 class="card-title" name="event-3-title">Title 3</h5>
+		    <p class="card-text" name="event-3-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <center><a href="#" class="btn btn-outline-primary " id="event-3-link" name="event-3-link">Go somewhere</a></center>
+		  </div>
+     </div>
+    </div>
+
+
+    <div>
+    	<div class="card">
+		  <img src="images/2.jpg" class="card-img-top" alt="..." name="event-4-image" id="event-4-image">
+		  <div class="card-body">
+		    <h5 class="card-title" name="event-4-title" id="event-4-title">Title 4</h5>
+		    <p class="card-text" name="event-4-text" id="event-4-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <center><a href="#" class="btn btn-outline-primary" id="event-4-link" name="event-4-link">Go somewhere</a></center>
+		  </div>
+     </div>
+    </div>
+
+
+    <div>
+    	<div class="card">
+		  <img src="images/1.jpg" class="card-img-top" alt="..." name="event-5-image" id="event-5-image">
+		  <div class="card-body">
+		    <h5 class="card-title" name="event-5-title" id="event-5-title">Title 5</h5>
+		    <p class="card-text" name="event-5-text" id="event-5-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <center><a href="#" class="btn btn-outline-primary " id="event-5-link" name="event-5-link">Go somewhere</a></center>
+		  </div>
+     </div>
+    </div>
+
+
+    <div>
+    	<div class="card">
+		  <img src="images/3.jpg" class="card-img-top" alt="..." name="event-6-image" id="event-6-image">
+		  <div class="card-body">
+		    <h5 class="card-title" name="event-6-title" id="event-6-title">Title 6</h5>
+		    <p class="card-text" name="event-6-text" id="event-6-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <center><a href="#" class="btn btn-outline-primary " id="event-6-link" name="event-6-link">Go somewhere</a></center>
+		  </div>
+     </div>
+    </div>
+
   </div>
 
-    			<h2 id ="announcements">
-		ANNOUNCEMENTS</h2> 
-<!-- style="border:10px solid #E7FAFA; border-top:0;" -->
- <div class="list-group">
+<!--------------------------------------------------------Latest updates ends ------------------------------------------------------------->
 
-  <a href="#" class="list-group-item list-group-item-action list-group-item-success">Announcement 1</a>
-  <a href="#" class="list-group-item list-group-item-action list-group-item-light">Announcement 2</a>
-  <a href="#" class="list-group-item list-group-item-action list-group-item-success">Announcement 3</a>
-  <a href="#" class="list-group-item list-group-item-action list-group-item-light">Announcement 4</a>
-  <a href="#" class="list-group-item list-group-item-action list-group-item-success">Announcement 5</a>
+
+
+
+
+
+<!----------------------------------------------------Announcement section starts --------------------------------------------------------->
+    <h2 id ="announcements">
+		ANNOUNCEMENTS</h2> 
+
+
+<div class="list-group">
+
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success" name="announcement1" id="announcement1">Announcement 1</a>
+
+  <a href="#" class="list-group-item list-group-item-action list-group-item-light" name="announcement2" id="announcement2">Announcement 2</a>
+
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success" name="announcement3" id="announcement3">Announcement 3</a>
+
+  <a href="#" class="list-group-item list-group-item-action list-group-item-light" name="announcement4" id="announcement4">Announcement 4</a>
+
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success" name="announcement5" id="announcement5">Announcement 5</a>
+
   <div style="border:50px solid #E7FAFA; border-top:0;"><center><button type="button" class="btn btn-info" id="btn" style="margin-top:30px; margin-bottom: -10px; ">View all Announcements</button></center></div>
 </div>
+<!----------------------------------------------------------Announcement section ends ----------------------------------------------------->
 
+
+
+
+
+<!---------------------------------------------------------Campus highlights starts-------------------------------------------------------->
 
 		<h2 id ="highlights">
 		CAMPUS HIGHLIGHTS</h2>
 
   	<div id="home-tiles3" class="row">
   	 	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-  	 		<a href = "#"><div id="library"><span>library</div></a>
+  	 		<a href = "#"><div id="library"><img src="images/library.jpg"><span>library</div></a>
   	 	</div>
 
   	 	<div class ="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-  	 		<a href="#"><div id="placements"><span>placements</span></div></a>
+  	 		<a href="#"><div id="placements"><img src="images/placements.png"><span>placements</span></div></a>
   	 	</div>
 
   	 	<div class ="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-  	 		<a href="#"><div id="hostels"><span>hostels</span></div></a><div id="map-tile"> 
+  	 		<a href="#"><div id="hostels"><img src="images/hostel.jpeg"><span>hostels</span></div></a><div id="map-tile"> 
   	 	</div>
   	 </div>
 
   	</div>
 
+<!-----------------------------------------------------------Campus highlights ends-------------------------------------------------------->
+
+
+
+
+
+
+<!-------------------------------------------------------------Quick links starts---------------------------------------------------------->
  <div class="accordion accordion-flush" id="accordionFlushExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="links">
@@ -260,8 +370,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     </div>
   </div>
 </div>
+<!--------------------------------------------------------Quick links ends----------------------------------------------------------------->
 
 
+
+
+
+
+
+<!--------------------------------------------------------Footer section starts------------------------------------------------------------>
   <footer class="panel-footer">
   	<div class="container">
   		<div class="row">
@@ -292,9 +409,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   		</div>
   		<div class ="text-center">&copy; Copyright PSG College of Technology - 2023</div>
   </footer>
+<!----------------------------------------------------------footer section ends------------------------------------------------------------>
 
 
 
+
+
+
+
+<!--------------------------------------------------------Javascript files and CDNs-------------------------------------------------------->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
   <script type="text/javascript" src="slick/jquery.js"></script>
@@ -378,6 +501,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
       ]
     });
     });
+
+
   </script>
 </body>
 
