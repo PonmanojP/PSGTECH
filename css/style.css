@@ -108,13 +108,16 @@ body{
 
 /*Style for college description starts*/
 #about{
-	height: auto;
-	padding-top:20px;
+	margin-top:40px;
+	height: auto
+	padding-top:30px;
 	padding-bottom: 50px;
-	background-color: black;
+	background-image:url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2tib2FyZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+	background-size: 100%;
 	position: relative;
-	margin-top:0;
 	opacity: 0.8;
+	border-radius: 20px;
+	border:2px solid black;
 }
 
 #about p{
@@ -126,6 +129,7 @@ body{
 #about h2{
 	position: relative;
 	color:white;
+	padding-top:20px;
 }
 
 #about a{
@@ -138,6 +142,69 @@ body{
 
 
 /*Style for latest updates starts*/
+#whatsnew{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+#scroll-container {
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 5px;
+  height: 300px;
+  width:60%;
+  margin-left:20%;
+  overflow: auto;
+}
+
+#scroll-text a{
+  color:black;
+  text-decoration:none;
+}
+
+#scroll-text {
+  height: 50%;
+  text-align: center;
+
+  
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateY(400%); }
+  to { -moz-transform: translateY(-400%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateY(400%); }
+  to { -webkit-transform: translateY(-400%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(400%);
+    -webkit-transform: translateY(400%);
+    transform: translateY(400%);
+  }
+  to {
+    -moz-transform: translateY(-400%);
+    -webkit-transform: translateY(-400%);
+    transform: translateY(-400%);
+  }
+}
+
+
+
 #updates{
     text-align: center;
     margin-top: 40px;
@@ -215,9 +282,39 @@ body{
 }
 
 /*Style for Campus Highlights ends*/
+.carousel-item{
+	border:2px solid black;
+	overflow: hidden;
 
+}
 
+#activities{
+	margin-top:70px;
+	text-align: center;
+	margin-bottom: 30px;
+}
 
+#spans span{
+	position:absolute;
+	bottom:0;
+	left:0;
+	background-color: black;
+	color:white;
+	opacity: 0.8;
+	padding-top:15px;
+	width:100%;
+}
+
+#spans span p{
+    margin-left:5%;
+    margin-right:5%;
+}
+
+#spans span #button{
+	float:right;
+	margin-right:5%;
+	margin-bottom: 10px;
+}
 
 /*Style for announcements starts*/
 #announcements{
@@ -349,6 +446,7 @@ body{
 
 
 
+
     .navbar-nav{
     	text-align: center;
     }
@@ -413,6 +511,11 @@ body{
 
     }
 
+    #spans span{
+    	font-size: 0.7em;
+    	padding-top:5px;
+    }
+
 
 
    #hostels{
@@ -445,6 +548,11 @@ body{
 	#logo{
 	    margin-bottom: 25px;
 }
+
+    #carouselExampleCaptions{
+    	 
+    	width:900px;
+    }
 }
 
 @media(max-width: 600px){
