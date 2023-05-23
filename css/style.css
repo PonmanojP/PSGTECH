@@ -613,7 +613,13 @@ body{
 	border-radius: 20px;
 	border:2px solid black;
 	position: relative;
+	padding:0;
 }
+
+#hod-img img{
+		height:auto;
+		width:100%;
+	}
 
 #desk{
 	text-align: center;
@@ -678,6 +684,7 @@ body{
   border: 1px solid black;
   border-top: none;
   background-color: #FFEEDA;
+  border-radius: 20px;
 }
 
 #tab{
@@ -989,7 +996,6 @@ body{
 	height:100%;
 	width: 60%;
 	margin-left:20%;
-	margin-top:100px;
 	border:2px solid black;
 	border-radius:20px;
 	overflow:hidden;
@@ -997,4 +1003,70 @@ body{
 
 #dept-inner img{
 	height:100%;
+}
+
+#dept-act{
+	text-align: center;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+
+
+@media(max-width: 992px){
+	#hod{
+	    font-size:0.9em;
+		border:5px solid black;
+		width: 100%;
+		
+
+    }
+
+
+	#hod-img{
+		height:230px;
+		width: 230px;
+	}
+
+	#carouselExampleAutoplaying3{
+		height:100%;
+		width: 95%;
+		margin-left:2.5%;
+		
+	
+    }
+}
+
+@media(max-width:576px){
+	#hod{
+		border:3px solid black;
+		width:90%;
+		margin-left:5%;
+		font-size: 0.8em;
+	}
+
+	#mission p,#vision p{
+		font-size:0.8em;
+	}
+
+	#About{
+		font-size: 0.8em;
+	}
+
+	.tab{
+		font-size: 0.8em;
+	}
+
+	#hod-img{
+		height:200px;
+		width: 200px;
+	}
+
+	#carouselExampleAutoplaying3{
+	height:100%;
+	width: 95%;
+	margin-left:2.5%;
+	
+	
+}
 }
