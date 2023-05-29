@@ -1311,8 +1311,7 @@ body{
 
 
 .dropdown-item:hover{
-	background-color: gray;
-	color:white;
+	background-color: #C2CFD1;
 	/*/*transition: 150ms linear;*/
 }
 
