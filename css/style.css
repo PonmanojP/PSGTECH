@@ -1311,14 +1311,10 @@ body{
 
 
 .dropdown-item:hover{
-	border:2px solid black;
-	transform:scale(1.1);
-	transition: 150ms linear;
+	background-color: gray;
+	color:white;
+	/*/*transition: 150ms linear;*/
 }
 
-#seconds:hover{
-	background-color:green;
-	color:white;
-	transform:scale(1.1);
-	transition: 150ms linear;
-}
+
+
